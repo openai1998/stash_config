@@ -153,7 +153,7 @@ proxy-groups:
     interval: 300
 
   - name: 故障转移
-    type: 故障转移
+    type: fallback
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Available.png
     use:
       - MyProxy
